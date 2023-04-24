@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Saira+Condensed:wght@400&display=swap');
+*{
+    font-family: "inter", sans-serif;
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    
+}
+body{
+    cursor: none;
+}
+.curseur{
+    position: absolute;
+    width:10px;
+    height:10px;
+    background:red;
+    border-radius: 20px;
+    transform:translate(-50%, -50%)
+}
+li{
+    list-style-type: none;
+}
+p{
+    font-size: 11px;
+}
+body{
+    min-height: 100vh;
+    background: #121212;
+    color: #e3e3e3;
+}
+/* header */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#helium{
+    font-size: 21px;
+}
+nav ul{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+/* section */
+section{
+    display: flex;
+    align-items: center;
+   
+}
+
+h1 {
+    font-size: 85px;
+}   
+h2#color {
+    color: #004eff;
+}
+/* image */
+div#left {
+    display: contents;
+    justify-content: center;
+}
+#image {
+    width: 50%;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+/* footer */
+footer{
+    background: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 170px;
+}
+/* button */
+div#button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+a.boutton{
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    background: #004eff;
+    color: #e3e3e3;
+    border-radius: 10px;
+    width: 90%;
+    height: 120%;
+}
+a {
+    text-decoration: none;
+}
+/* investisseur */
+h4#sous-titre{
+    position: absolute;
+    left: 38%;
+}
+#moitie{
+    width: 65%;
+    display: flex;      justify-content:space-around;
+    align-items: center;
+}
+/* taille des logos footer */
+img#width1 {
+    width: 8%;
+}
+.width2{
+    width: 13%;
+}
+img.width3 {
+    width: 10%;
+}
